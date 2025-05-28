@@ -1,15 +1,6 @@
 *{
-  
 }
 
-h3{
-    color:brown;
-}
-
-h4{
-    color: red;
-    background-color: aqua;
-}
 
 .one{
     color: yellow;
@@ -43,9 +34,7 @@ a[href]{
     color: yellow;
 } */
 
-h1{
-    color: blue;
-}
+
 
 .six{
     color: blanchedalmond;
@@ -117,4 +106,35 @@ p{
     margin: topbottom rightleft;
     margin: 300px 300px;
     border: 10px solid black;
+}
+
+
+
+/* combine css selector  */
+
+
+h1,h3,h5{
+    font-size: 35px;
+    color: aqua;
+}
+
+
+/* .parent child  */
+
+.parent > .child1{
+    background-color: aquamarine;
+}
+
+.parent > .child2,.child3,.child4,.child5,.child6{
+    background-color: blue;
+}
+
+.parent2 >.child1{
+    font-size: 40px;
+}
+
+
+ul .banana{
+    font-size: 50px;
+    color: blueviolet;
 }
