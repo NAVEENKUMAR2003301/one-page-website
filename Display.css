@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+
+}
+
+.one{
+    background-color: black;
+    display: inline-block;
+
+}
+
+.two{
+    background-color: red;
+    position: absolute;
+    right: 200px;
+     top: 0;
+
+}
+.three{
+    background-color: violet;
+    display: none;
+}
+
+/* display properties  */
+
+/* 1. inline
+2.inline block
+3.block
+4.float
+5.none */
